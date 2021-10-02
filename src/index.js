@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Education from './components/education'
+import Skills from './components/skills'
+import Footer from './components/footer'
+import Contact from './components/contact'
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +15,32 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(
+  <React.StrictMode>
+    <Contact />
+  </React.StrictMode>,
+  document.getElementById('contact')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Education />
+  </React.StrictMode>,
+  document.getElementById('education')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Skills />
+  </React.StrictMode>,
+  document.getElementById('skills')
+);
+
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Footer />
+  </React.StrictMode>,
+  document.getElementById('footer')
+);
