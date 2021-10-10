@@ -3,7 +3,7 @@ import '../App.css';
 function Skills() {
     return (
       <div>
-          <h2>Computer Skills</h2>
+          <h2 style={{color:"blue"}}>Computer Skills</h2>
           <u1>
           <li>Testing: Manual Testing, Automation Testing</li>
           <li>Languages and Frameworks: Java, PHP, WordPress, Python</li>

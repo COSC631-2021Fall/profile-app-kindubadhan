@@ -12,11 +12,11 @@ export default class Home extends Component {
 				
 				<div >
                     <div >
-                           
+					        <Address />
 							<Education />
 							<Skills />
 							<Footer />
-                            <Address />
+                            
 						</div>
 					</div>
 				

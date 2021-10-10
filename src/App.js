@@ -46,23 +46,26 @@ function App() {
       <main>
         <h1>Kulwinder Kaur</h1>
 
-    <Router>
-      <>
-        <Route exact path="/" component={Home} />
-        <Switch>
-          <Route path="/education" component={Education} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/footer" component={Footer} />
-        </Switch>
-      </>
-    </Router>
-
     <Router> 
             <Route path={["/contact", "/contact/:id", "/"]}>
               <Contact />
             </Route>
             
         </Router>
+        <Router>
+            <Route path="/footer" component={Footer} />
+        </Router>
+        <Router>
+      <>
+      <Route exact path="/" component={Home} />
+        <Switch>
+        <Route path="/navbar" component={Navbar} />
+          <Route path="/education" component={Education} />
+          <Route path="/skills" component={Skills} />
+         
+        </Switch>
+      </>
+    </Router>
     </main></div>
    
   );

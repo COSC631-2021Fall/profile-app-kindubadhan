@@ -3,7 +3,7 @@ import '../App.css';
 function Education() {
     return (
       <div>
-          <h2>Education</h2>
+          <h2 style={{color:"blue"}}>Education</h2>
           <u1>
           <li>Master of Science, Computer Science - Eastern Michigan University, MI USA</li>
           <li>Master of Information Technology, Punjab University, India.</li>
